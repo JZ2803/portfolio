@@ -124,6 +124,29 @@ html a:link, html a:visited {
     margin-right: 0.1rem;
 }
 
+/* Portfolio section */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 100%;
+    margin: 0.4rem;
+}
+.project h5 {
+    margin-top: 0.8rem;
+}
+
+.project p, .project a {
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+}
+
+.project img{
+    width: 100%;
+}
+
 /* Blog section */
 .blog-container {
     display: flex;
@@ -133,30 +156,35 @@ html a:link, html a:visited {
 
 .blogpost {
     display: flex;
+    margin: 0.4rem;
 }
 
-.blogpost div {
-    flex: 1;
+.blogpost a {
+    font-size: 0.85rem;
+}
+.blogpost .text {
+    flex: 3;
+    margin-right: 0.3rem;
+}
+
+.blogpost .image {
+    flex: 2;
 }
 
 .blogpost .blogpost-date {
     color: #a2a2a2;
     margin-top: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
 
-.blog-container div{
-    margin: 0.2rem;
-}
-
-.blog-container h5 {
+h5 {
     font-weight: 600;
     margin: 0;
 }
 
 .blog-container p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 
 .blog-container img {
@@ -178,6 +206,7 @@ html a:link, html a:visited {
     html {
         font-size: 1.3rem;
     }
+    
 }
 /* Media query break - large tablet */
 @media only screen and (min-width: 701px) and (max-width: 950px) {
@@ -228,8 +257,11 @@ html a:link, html a:visited {
     .socials-container a {
         margin: 0 0.5rem 0 0;
     }
-    .blog-container div{
-        width: 49%;
+    .blogpost{
+        width: 48%;
+    }
+    .project {
+        width: 48%;
     }
 }
 
@@ -320,7 +352,7 @@ main {
 }
 
 .contentpage-header {
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 2.5rem 0;
     margin: 0 auto 1rem auto;
     background: #f8f8f8;
 }

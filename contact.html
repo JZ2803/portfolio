@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Nav bar -->
+     <nav class="navbar">
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Page header -->
+    <header class="contentpage-header">
+        <span id="title-block-content">|</span>
+        <span>Contact</span>
+    </header>
+    <main>
+        <!-- Socials section -->
+        <section class="socials-section">
+            <p>Connect with me on my socials:</p>
+            <div class="socials-container left-align">
+                <a href="mailto:jessica.zheng67@gmail.com">
+                    <i class ="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/jessica-zheng1/">
+                    <i class ="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/JZ2803">
+                    <i class ="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://twitter.com">
+                    <i class ="fa-brands fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>      
+            </div>
+        </section>
+        <!-- Contact form section -->
+        <section class="contactform-section">
+            <p>Or, fill in the form below to get in touch:</p>
+            <div class="contactform-container">
+                <form action="/placeholder-address" method="post">
+                    <ul>
+                        <li>
+                            <label><strong>Name</strong></label><br>
+                            <input type="text" id="name" name="contact-name"><br>
+                        </li>
+                        <li>
+                            <label><strong>Email</strong></label><br>
+                            <input type="email" id="email" name="contact-email"><br>
+                        </li>
+                        <li>
+                            <label><strong>Message</strong></label><br>
+                            <textarea rows="8" id="message" name="contact-message"></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Send</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

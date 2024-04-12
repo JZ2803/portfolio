@@ -7,6 +7,70 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+/* ---------
+  UNIVERSAL
+--------- */
+/* Nav bar */
+.navbar ul {
+    padding: min(2vw, 30px) 0;
+    margin: 0 auto 0 auto;
+    font-size: 0.9rem;
+    background: #f8f8f8;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* Page layout */
+body {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    font-size: 1rem;
+    padding: 0 0.8rem;
+    margin: 0 auto 0 auto;
+}
+
+.spacer {
+    height: 2rem;
+}
+
+#title-block-about {
+    color: #444f7f;
+    font-weight: 900;
+    margin-right: 0.2rem;
+}
+
+.contentpage-header {
+    padding: 2rem 0 2.5rem 0;
+    margin: 0 auto 1rem auto;
+    background: #f8f8f8;
+}
+
+.contentpage-header span {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.contentpage-header p {
+    font-size: 1rem;
+    padding: 0 0 2rem 0.8rem;
+}
+
+#title-block-content {
+    color: #444f7f;
+    font-weight: 900;
+    margin: 0 0.2rem 0 0.8rem;
+}
+
 html a:link, html a:visited {
     color: #444f7f;
 }
@@ -14,7 +78,6 @@ html a:link, html a:visited {
 /* -----------
   ABOUT  PAGE
 -----------  */
-
 .content-section > span {
     font-weight: 600;
     font-size: 1.3rem;
@@ -128,19 +191,23 @@ html a:link, html a:visited {
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 .project {
     width: 100%;
-    margin: 0.4rem;
-}
-.project h5 {
-    margin-top: 0.8rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    margin-bottom: 0.5rem;
 }
 
 .project p, .project a {
     font-size: 0.85rem;
     margin-bottom: 0.3rem;
+}
+
+.project p {
+    font-weight: 300;
 }
 
 .project img{
@@ -156,26 +223,23 @@ html a:link, html a:visited {
 
 .blogpost {
     display: flex;
-    margin: 0.4rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    margin-bottom: 0.5rem;
 }
 
 .blogpost a {
     font-size: 0.85rem;
 }
+
 .blogpost .text {
-    flex: 3;
+    flex: 4;
     margin-right: 0.3rem;
+    font-weight: 300;
 }
 
 .blogpost .image {
-    flex: 2;
-}
-
-.blogpost .blogpost-date {
-    color: #a2a2a2;
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 300;
+    flex: 3;
 }
 
 h5 {
@@ -187,8 +251,80 @@ h5 {
     font-size: 0.85rem;
 }
 
+.date {
+    color: #a2a2a2;
+    font-weight: 300;
+}
+
 .blog-container img {
     width: 100%;
+}
+
+/* ----------------------
+  PROJECTS/BLOG POSTS
+------------------------- */
+.content-title {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.blogcontent h3 {
+    font-weight: 500;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.blogcontent p {
+    margin-bottom: 0.5rem;
+}
+
+.content-image {
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+/* ------------
+  CONTACT PAGE
+------------ */
+/* Socials section */
+.socials-section {
+    text-align: left;
+}
+
+.socials-section p {
+    margin: 0 0 1rem 0;
+}
+
+.left-align {
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0 0 2rem 0;
+}
+
+/* Contact form section */
+.contactform-container {
+    background: #eeeff6;
+    max-width: 50rem;
+}
+
+.contactform-container, .contactform-container input, .contactform-container textarea {
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.contactform-container ul { 
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0 auto 0 auto;
+}
+
+.contactform-container li {
+    margin-bottom: 1rem;
+}
+
+.contactform-container input, .contactform-container textarea {
+    width: 100%;
+    
 }
 
 /* ------------------
@@ -257,118 +393,18 @@ h5 {
     .socials-container a {
         margin: 0 0.5rem 0 0;
     }
+    .blog-container { 
+        justify-content: space-between;
+    }
     .blogpost{
-        width: 48%;
+        width: 45%;
+        margin: 0 0 0.5rem 0;
+    }
+    .portfolio-container {
+        justify-content: space-between;
     }
     .project {
-        width: 48%;
+        width: 45%;
+        margin: 0 0 0.5rem 0;
     }
-}
-
-/* ------------
-  CONTACT PAGE
------------- */
-/* Socials section */
-.socials-section {
-    text-align: left;
-}
-
-.socials-section p {
-    margin: 0 0 1rem 0;
-}
-
-.left-align {
-    justify-content: flex-start;
-    text-align: left;
-    margin: 0 0 2rem 0;
-}
-
-/* Contact form section */
-.contactform-container {
-    background: #eeeff6;
-    max-width: 50rem;
-}
-
-.contactform-container, .contactform-container input, .contactform-container textarea {
-    font-size: 0.9rem;
-    font-family: "Poppins", sans-serif;
-}
-
-.contactform-container ul { 
-    list-style-type: none;
-    padding: 1rem;
-    margin: 0 auto 0 auto;
-}
-
-.contactform-container li {
-    margin-bottom: 1rem;
-}
-
-.contactform-container input, .contactform-container textarea {
-    width: 100%;
-    
-}
-
-/* ---------
-  UNIVERSAL
---------- */
-/* Nav bar */
-.navbar ul {
-    padding: min(2vw, 30px) 0;
-    margin: 0 auto 0 auto;
-    font-size: 0.9rem;
-    background: #f8f8f8;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar a:link, .navbar a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-/* Page layout */
-body {
-    background-color: white;
-}
-
-main {
-    background-color: white;
-    font-size: 1rem;
-    padding: 0 0.8rem;
-    margin: 0 auto 0 auto;
-}
-
-.spacer {
-    height: 2rem;
-}
-
-#title-block-about {
-    color: #444f7f;
-    font-weight: 900;
-    margin-right: 0.2rem;
-}
-
-.contentpage-header {
-    padding: 2rem 0 2.5rem 0;
-    margin: 0 auto 1rem auto;
-    background: #f8f8f8;
-}
-
-.contentpage-header span {
-    font-size: 1.7rem;
-    font-weight: 600;
-}
-
-.contentpage-header p {
-    font-size: 1rem;
-    padding: 0 0 2rem 0.8rem;
-}
-
-#title-block-content {
-    color: #444f7f;
-    font-weight: 900;
-    margin: 0 0.2rem 0 0.8rem;
 }

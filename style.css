@@ -75,6 +75,32 @@ html a:link, html a:visited {
     color: #444f7f;
 }
 
+.font-light {
+    font-weight: 300;
+}
+
+.button, .button:link {
+    color: white;
+    text-decoration: none;
+    background-color: #1d1d1d;
+    border: 2px solid #1d1d1d;
+    font-size: 95%;
+    padding: 1% 2%;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.button:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #444f7f;
+    background-color: white;
+    border: 2px solid #444f7f;
+}
+
 /* -----------
   ABOUT  PAGE
 -----------  */
@@ -135,28 +161,6 @@ html a:link, html a:visited {
     max-width: 20rem;
 }
 
-.socials-container a, .socials-container a:link {
-    color: white;
-    text-decoration: none;
-    background-color: #1d1d1d;
-    border: 2px solid #1d1d1d;
-    font-size: 95%;
-    padding: 1% 2%;
-    border-radius: 0.5rem;
-    transition: 0.2s;
-}
-
-.socials-container a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-.socials-container a:hover {
-    color: #444f7f;
-    background-color: white;
-    border: 2px solid #444f7f;
-}
-
 .socials-container i {
     margin-right: 0.2rem;
 }
@@ -206,10 +210,6 @@ html a:link, html a:visited {
     margin-bottom: 0.3rem;
 }
 
-.project p {
-    font-weight: 300;
-}
-
 .project img{
     width: 100%;
 }
@@ -235,7 +235,6 @@ html a:link, html a:visited {
 .blogpost .text {
     flex: 4;
     margin-right: 0.3rem;
-    font-weight: 300;
 }
 
 .blogpost .image {
@@ -301,6 +300,10 @@ h5 {
     margin: 0 0 2rem 0;
 }
 
+.socials-container a {
+    margin-right: 0.1rem;
+}
+
 /* Contact form section */
 .contactform-container {
     background: #eeeff6;
@@ -330,28 +333,25 @@ h5 {
 /* ------------------
   MEDIA QUERY BREAKS
 ------------------ */
-/* Media query break - large phone */
 @media only screen and (min-width: 400px) and (max-width: 550px) {
     html {
         font-size: 1.15rem;
     }
 }
 
-/* Media query break - small tablet */
 @media only screen and (min-width: 551px) and (max-width: 700px) {
     html {
         font-size: 1.3rem;
     }
     
 }
-/* Media query break - large tablet */
+
 @media only screen and (min-width: 701px) and (max-width: 950px) {
     html {
         font-size: 1.3rem;
     }
 }
 
-/* Media query break - desktop & other */
 @media only screen and (min-width: 951px) {
     html {
         font-size: 1.3rem;
@@ -390,8 +390,9 @@ h5 {
         justify-content: flex-start;
         max-width: 100%;
     }
-    .socials-container a {
-        margin: 0 0.5rem 0 0;
+    .socials-container span, .socials-container a, .socials-container i {
+        margin: 0 0.4rem 0 0;
+        font-size: 0.8rem;
     }
     .blog-container { 
         justify-content: space-between;

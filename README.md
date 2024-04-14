@@ -42,7 +42,7 @@ When designing the website layout, some key themes I kept in mind were: clear st
 
 #### Home page
 I wanted the home page to serve as a clear, high-level overview of the structure and content of my portfolio website, containing snapshots of each main page of the website. The home page can be categorised into two main sections/components:
-* **Profile summary section:** which includes my photo, a short description about myself and email/social media buttons for easy access.
+* **Profile summary section:** which includes my name, photo, a short description about myself and email/social media buttons for easy access. On smaller screens, th elements of this section are stacked vertically, whereas on larger screens, my name and photo are positioned on the left and the description and social media buttons on the right.
 * **Overview of main pages of website:** the skills & experience section includes a summarised overview of my technical skills as well as links to access the experience page and my resume. The portfolio and blog sections show previews of my two latests posts which users can click to view the full individual post, and there are also links to the full portfolio and blog pages.
 
 #### Experience page
@@ -123,6 +123,10 @@ I started developing my website on a screen width of 360px (based on my research
 In performing this process, I found that given the use of Flexbox for layout throughout my website, the pages were already quite responsive.
 
 Utlimately, I decided that setting four media query breakpoints (400px, 550px, 700px, 950px) worked best for the layout of my website. 950px was the last breakpoint I set, as by that point I had set a max-width for the pages and any further increase to the screen size would not change the layout.
+
+Three pages have notable layout differences when switching between smaller and larger screen size: 
+* **Home page:** as mentioned in the [Home page](#home-page) section, on smaller screens the elements of the profile summary section are stacked vertically, whereas on larger screens, my name and photo are positioned on the left and the description and social media buttons on the right.
+* **Portfolio page and Blog page:** as mentioned in the [Portfolio page](#portfolio-page) and [Blog page](#blog-page) sections, respectively, on smaller screens (mobile/tablet) the content is presented in a one-column layout whereas on larger screens (desktop and other) the content is present in a two-column layout.
 
 See wireframes below for layout on different screen sizes:
 

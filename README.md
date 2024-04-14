@@ -38,7 +38,7 @@ This portfolio website leverages concepts and technologies learned in the first 
 When designing the website layout, some key themes I kept in mind were: clear structure, accessibility, clean aesthetic and website responsiveness. To maintain clarity and structure, I divided the website into five main pages, each serving a distinct purpose, which can be easily accessed via the navigation bar.
 
 ### Sitemap
-![sitemap](/docs/sitemap.png)
+![sitemap](docs/sitemap.png)
 
 #### Home page
 I wanted the home page to serve as a clear, high-level overview of the structure and content of my portfolio website, containing snapshots of each main page of the website. The home page can be categorised into two main sections/components:
@@ -80,17 +80,17 @@ This page presents all the ways which users can contact me. It has two component
 ### Noteworthy/Reusable Components
 1. **Navigation bar:** to ensure users have a way to easily navigate between pages of the website, I included a horizontal navigation bar at the top of all pages of the website. The bar is fixed in position, meaning that it will remain at the top of the user's screen regardless of what location on the page the user is at. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-navbar](/docs/screenshot-navbar.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-navbar](docs/screenshot-navbar.png)
 
 2. **Social media buttons:** minimal, dark grey buttons with rounded edges were designed with the overall clean and professional theme of the website in mind. A basic hover effect was incorporated, to make the page more interactive and engage the user. Upon hovering, the buttons text and borders change to a shade of blue consistent with the theme of the website and provide some aesthetic elements. These set of buttons appear in both the home page and the Contact pages.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-socialmediabuttons](/docs/screenshot-socialmediabuttons.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-socialmediabuttons](docs/screenshot-socialmediabuttons.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-socialmediabuttons](/docs/screenshot-socialmediabuttonshover.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-socialmediabuttons](docs/screenshot-socialmediabuttonshover.png)
 
 3. **Copyright footer:** included at the bottom of every page on the website. Interestingly, I found that the best way to achieve the positioning of the footer at bottom of the page (even on shorter pages) was to utilise Flexbox.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-footer](/docs/screenshot-footer.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-footer](docs/screenshot-footer.png)
 
 4. **Project list:** as detailed in the [Portfolio page](#portfolio-page) section, a snapshot of each project is shown on its own tile which includes information such as the project name, brief description and an image and the full project writeup can be accessed through clicking the project title or image.  Collectively, these tiles (i.e. list of projects) can be considered a component.
 
@@ -131,37 +131,37 @@ Three pages have notable layout differences when switching between smaller and l
 See wireframes below for layout on different screen sizes:
 
 ### Mobile Wireframes
-![wireframe-mobile](/docs/wireframe-mobile.png)
+![wireframe-mobile](docs/wireframe-mobile.png)
 ### Tablet Wireframes
-![wireframe-tablet](/docs/wireframe-tablet.png)
+![wireframe-tablet](docs/wireframe-tablet.png)
 ### Desktop Wireframes
-![wireframe-desktop](/docs/wireframe-desktop.png)
+![wireframe-desktop](docs/wireframe-desktop.png)
 
 *Note: Footer is not shown in the wireframes as I decided to add it to the website layout after designing the wireframes.*
 
 ## Screenshots
 
 ### Home page
-![screenshot-home1](/docs/screenshot-home1.png)
-![screenshot-home1](/docs/screenshot-home2.png)
+![screenshot-home1](docs/screenshot-home1.png)
+![screenshot-home1](docs/screenshot-home2.png)
 
 ### Experience page
-![screenshot-experience](/docs/screenshot-experience.png)
+![screenshot-experience](docs/screenshot-experience.png)
 
 ### Portfolio page
-![screenshot-portfolio](/docs/screenshot-portfolio.png)
+![screenshot-portfolio](docs/screenshot-portfolio.png)
 
 ### Project post
-![screenshot-project](/docs/screenshot-project.png)
+![screenshot-project](docs/screenshot-project.png)
 
 ### Blog page
-![screenshot-blog](/docs/screenshot-blog.png)
+![screenshot-blog](docs/screenshot-blog.png)
 
 ### Blog post
-![screenshot-blogpost](/docs/screenshot-blogpost.png)
+![screenshot-blogpost](docs/screenshot-blogpost.png)
 
 ### Contact page
-![screenshot-contact](/docs/screenshot-contact.png)
+![screenshot-contact](docs/screenshot-contact.png)
 
 ## Acknowledgements
 - [Font Awesome](https://fontawesome.com/) for icons

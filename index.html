@@ -8,140 +8,151 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Nav bar (component) -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="/index.html">About</a></li>
-            <li><a href="/experience.html">Experience</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- Profile summary section -->
-    <section class="summary-section">
-        <div id="profilepic">
-            <img id="profilepic-image" src="/images/profilepic.png" alt="profilepic">
+    <div class="container">
+        <div class="notfooter">
+            <!-- Nav bar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/index.html">About</a></li>
+                    <li><a href="/experience.html">Experience</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Profile summary section -->
+            <section class="summary-section">
+                <div id="profilepic">
+                    <img id="profilepic-image" src="/images/profilepic.png" alt="profilepic">
+                </div>
+                <div id="description">
+                    <h1>Jessica Zheng</h1>
+                    <h3>Full-stack developer</h3>
+                    <p>I'm a full-stack developer based in Sydney, Australia and currently a student at Coder Academy. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <!-- Socials buttons -->
+                    <div class="socials-container">
+                        <a class="button" href="mailto:jessica.zheng67@gmail.com">
+                            <i class ="fa-solid fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a class="button" href="https://www.linkedin.com/in/jessica-zheng1/">
+                            <i class ="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a class="button" href="https://github.com/JZ2803">
+                            <i class ="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a class="button" href="https://twitter.com">
+                            <i class ="fa-brands fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>    
+                    </div>   
+                </div>
+            </section>
+            <div class="spacer"></div>
+            <main>
+                <!-- About me section -->
+                <section class="content-section about">
+                    <span id="title-block-about">|</span>
+                    <span>About me</span>
+                    <div class="spacer-small"></div>
+                    <p>Though my educational background is in finance/accounting, I have always had an interest in design and love crafting technical solutions to solve problems. The few years I spent working in the finance industry helped me discover my passion for…
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aspernatur sed distinctio dicta natus numquam incidunt accusantium fugit ullam aut? Reiciendis quod vitae, fugiat dolorum ut totam placeat voluptates eius!</p>
+                </section>
+                <div class="spacer"></div>
+                <!-- Experience section -->
+                <section class="content-section experience">
+                    <span id="title-block-about">|</span>
+                    <span>Skills & Experience</span>
+                    <div class="spacer-small"></div>
+                    <p>Here's an overview of my main technical skillset and technologies I work with:</p>
+                    <!-- Skills icons -->
+                    <div class="skills-container">
+                        <div>
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <p>For more on my experience, education and skills, check out my <a href="">resume</a>.</p>
+                </section>
+                <div class="spacer"></div>
+                <!-- Portfolio section -->
+                <section class="content-section portfolio">
+                    <span id="title-block-about">|</span>
+                    <span>Portfolio</span>
+                    <div class="spacer-small"></div>
+                    <p>My latest projects, more details in <a href="/portfolio.html">portfolio</a>.</p>
+                    <!-- Latest projects -->
+                    <div class="portfolio-container">
+                        <!-- Project previews -->
+                        <div class="project">
+                            <h5><a href=PLACEHOLDER>Project 1</a></h5>
+                            <p class="font-light">Placeholder description for my project. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="PLACEHOLDER"><img src="https://picsum.photos/300/120" alt="projectphoto"></a>
+                        </div>
+                        <div class="project">
+                            <h5><a href=PLACEHOLDER>Project 2</a></h5>
+                            <p class="font-light">Placeholder description for my project. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="PLACEHOLDER"><img src="https://picsum.photos/300/120" alt="projectphoto"></a>
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <!-- Blog section -->
+                <section class="content-section blog">
+                    <span id="title-block-about">|</span>
+                    <span>Blog</span>
+                    <div class="spacer-small"></div>
+                    <p>My latest posts, read more in <a href=/blog.html>blog</a>.</p>
+                    <!-- Latest blog posts -->
+                    <div class="blog-container">
+                        <!-- Blog post previews -->
+                        <div class="blogpost">
+                            <div class="text">
+                                <h5><a href=/blogposts/samplepost1.html>Blog post 1</a></h5>
+                                <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu risus.</p>
+                                <p class="date">Published: 10 Apr 2024</p>
+                            </div>
+                            <div class="image">
+                                <a href="PLACEHOLDER"><img src="https://picsum.photos/300/230" alt="blogphoto"></a>
+                            </div>
+                        </div>
+                        <div class="blogpost">
+                            <div class="text">
+                                <h5><a href=/blogposts/samplepost1.html>Blog post 2</a></h5>
+                                <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, diam.</p>
+                                <p class="date">Published: 21 Mar 2024</p>
+                            </div>
+                            <div class="image">
+                                <a href="PLACEHOLDER"><img src="https://picsum.photos/300/230" alt="blogphoto"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+            </main>
         </div>
-        <div id="description">
-            <h1>Jessica Zheng</h1>
-            <h3>Full-stack developer</h3>
-            <p>I'm a full-stack developer based in Sydney, Australia and currently a student at Coder Academy. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <!-- Socials buttons (component) -->
-            <div class="socials-container">
-                <a class="button" href="mailto:jessica.zheng67@gmail.com">
-                    <i class ="fa-solid fa-envelope"></i>
-                    <span>Email</span>
-                </a>
-                <a class="button" href="https://www.linkedin.com/in/jessica-zheng1/">
-                    <i class ="fa-brands fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
-                <a class="button" href="https://github.com/JZ2803">
-                    <i class ="fa-brands fa-github"></i>
-                    <span>GitHub</span>
-                </a>
-                <a class="button" href="https://twitter.com">
-                    <i class ="fa-brands fa-twitter"></i>
-                    <span>Twitter</span>
-                </a>    
-            </div>   
-        </div>
-    </section>
-    <div class="spacer"></div>
-    <main>
-        <!-- About me section -->
-        <section class="content-section">
-            <span id="title-block-about">|</span>
-            <span>About me</span>
-            <p></p>
-            <p>Though my educational background is in finance/accounting, I have always had an interest in design and love crafting technical solutions to solve problems. The few years I spent working in the finance industry helped me discover my passion for…
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aspernatur sed distinctio dicta natus numquam incidunt accusantium fugit ullam aut? Reiciendis quod vitae, fugiat dolorum ut totam placeat voluptates eius!</p>
-        </section>
-        <div class="spacer"></div>
-        <!-- Experience section -->
-        <section class="content-section experience">
-            <span id="title-block-about">|</span>
-            <span>Skills & Experience</span>
-            <p>Here's an overview of my main technical skillset and technologies I work with:</p>
-            <!-- Skills icons -->
-            <div class="skills-container">
-                <div>
-                    <i class="fa-brands fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <span>CSS</span>
-                </div>
-                <div>
-                    <i class="fa-brands fa-js"></i>
-                    <span>JavaScript</span>
-                </div>
-                <div>
-                    <i class="fa-brands fa-python"></i>
-                    <span>Python</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-database"></i>
-                    <span>SQL</span>
-                </div>
-            </div>
-            <p>For more on my experience, education and skills, check out my <a href="">resume</a>.</p>
-        </section>
-        <div class="spacer"></div>
-        <!-- Portfolio section -->
-        <section class="content-section portfolio">
-            <span id="title-block-about">|</span>
-            <span>Portfolio</span>
-            <p>My latest projects, more details in <a href="/portfolio.html">portfolio</a>.</p>
-            <!-- Latest projects -->
-            <div class="portfolio-container">
-                <!-- Project previews (component) -->
-                <div class="project">
-                    <h5><a href=PLACEHOLDER>Project 1</a></h5>
-                    <p class="font-light">Placeholder description for my project. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="PLACEHOLDER"><img src="https://picsum.photos/300/120" alt="projectphoto"></a>
-                </div>
-                <div class="project">
-                    <h5><a href=PLACEHOLDER>Project 2</a></h5>
-                    <p class="font-light">Placeholder description for my project. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <a href="PLACEHOLDER"><img src="https://picsum.photos/300/120" alt="projectphoto"></a>
-                </div>
-            </div>
-        </section>
-        <div class="spacer"></div>
-        <!-- Blog section -->
-        <section class="content-section blog">
-            <span id="title-block-about">|</span>
-            <span>Blog</span>
-            <p>My latest posts, read more in <a href=/blog.html>blog</a>.</p>
-            <!-- Latest blog posts -->
-            <div class="blog-container">
-                <!-- Blog post previews (component) -->
-                <div class="blogpost">
-                    <div class="text">
-                        <h5><a href=/blogposts/samplepost1.html>Blog post 1</a></h5>
-                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu risus.</p>
-                        <p class="date">Published: 10 Apr 2024</p>
-                    </div>
-                    <div class="image">
-                        <a href="PLACEHOLDER"><img src="https://picsum.photos/300/230" alt="blogphoto"></a>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div class="text">
-                        <h5><a href=/blogposts/samplepost1.html>Blog post 2</a></h5>
-                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper, diam.</p>
-                        <p class="date">Published: 21 Mar 2024</p>
-                    </div>
-                    <div class="image">
-                        <a href="PLACEHOLDER"><img src="https://picsum.photos/300/230" alt="blogphoto"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="spacer"></div>
-    </main>
+        <!-- Copyright footer -->
+        <footer>
+            <p>Copyright &copy; 2024 Jessica Zheng</p>
+        </footer>
+    </div>
 </body>
 </html>

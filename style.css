@@ -12,14 +12,17 @@ html {
 --------- */
 /* Nav bar */
 .navbar ul {
-    padding: min(2vw, 30px) 0;
-    margin: 0 auto 0 auto;
-    font-size: 0.9rem;
     background: #f8f8f8;
+    font-size: 0.9rem;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: min(5vw, 30px) 0;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a:link, .navbar a:visited {
@@ -27,9 +30,32 @@ html {
     text-decoration: none;
 }
 
-/* Page layout */
+/* Footer */
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.notfooter {
+    flex: 1;
+}
+
+footer {
+    font-size: 0.6rem;
+    text-align: center;
+    width: 100vw;
+    color: #a9a9a9;
+}
+
+footer p {
+    margin: 0.5rem;
+}
+
+/* Page layout and styling*/
 body {
     background-color: white;
+    margin: 0;
 }
 
 main {
@@ -43,15 +69,22 @@ main {
     height: 2rem;
 }
 
-#title-block-about {
-    color: #444f7f;
-    font-weight: 900;
-    margin-right: 0.2rem;
+.spacer-small {
+    height: 0.3rem;
 }
 
+html a:link, html a:visited {
+    color: #444f7f;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+/* Page title headers */
 .contentpage-header {
-    padding: 2rem 0 2.5rem 0;
-    margin: 0 auto 1rem auto;
+    padding: 6rem 0 2rem 0;
+    margin: 0 auto 1.5rem auto;
     background: #f8f8f8;
 }
 
@@ -71,21 +104,14 @@ main {
     margin: 0 0.2rem 0 0.8rem;
 }
 
-html a:link, html a:visited {
-    color: #444f7f;
-}
-
-.font-light {
-    font-weight: 300;
-}
-
+/* Buttons */
 .button, .button:link {
     color: white;
     text-decoration: none;
     background-color: #1d1d1d;
     border: 2px solid #1d1d1d;
     font-size: 0.75rem;
-    padding: 0.3rem 2%;
+    padding: 0.3rem 2.2%;
     border-radius: 0.5rem;
     transition: 0.2s;
 }
@@ -113,12 +139,19 @@ html a:link, html a:visited {
     font-size: 1.3rem;
 }
 
+#title-block-about {
+    color: #444f7f;
+    font-weight: 900;
+    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Profile summary section */
 .summary-section {
     display: flex;
     flex-wrap: wrap;
     background: #f8f8f8;
-    padding: 0 0 1.5rem 0;
+    padding: 4rem 0 1.5rem 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -263,7 +296,7 @@ h5 {
 ------------------------- */
 .post-title {
     font-weight: 500;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
 }
 
 .post-content h3 {
@@ -355,8 +388,9 @@ h5 {
     html {
         font-size: 1.3rem;
     }
-    .navbar ul, main, .contentpage-header, .summary-section {
+    .navbar, .navbar ul, main, .contentpage-header, .summary-section {
         max-width: 70rem;
+        margin: 0 auto;
     }
     #profilepic {
         margin: 2rem;

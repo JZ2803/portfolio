@@ -92,15 +92,15 @@ This page presents all the ways which users can contact me. It has two component
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![screenshot-footer](/docs/screenshot-footer.png)
 
-4. **Project list:** as detailed in the [Portfolio page](#portfolio-page) section, a snapshot of each project is shown on its own tile which includes information such as the project name, brief description and an image and the full project writeup can be accessed through clicking the project title or image. Collectively, these tiles (i.e. list of projects) can be considered a component.
+4. **Project list:** as detailed in the [Portfolio page](#portfolio-page) section, a snapshot of each project is shown on its own tile which includes information such as the project name, brief description and an image and the full project writeup can be accessed through clicking the project title or image.  Collectively, these tiles (i.e. list of projects) can be considered a component.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[See 'Portfolio page' in Screenshots section](#screenshots)
 
-5. **Project post:** as detailed in the [Project post](#project-post) section, these pages are child pages to the Portfolio page and contain a button to access the project repo on GitHub, project writeup and supporting image documentation. This page (component) is reused for every project post.
+5. **Project post:** as detailed in the [Project post](#project-post) section, these pages are child pages to the Portfolio page and contain a button to easily access the project repo on GitHub, project writeup and supporting image documentation. This page (component) is reused for every project post.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[See 'Project post' in Screenshots section](#screenshots)
 
-6. **Blog list:** as detailed in the [Blog page](#blog-page) section, a snapshot of each blog is shown on its own tile which includes information such as the blog post name, brief description, publish date and image. The full blog post can be accessed through clicking the blog post title or image. Collectively, these tiles (i.e. list of blog posts) can be considered a component.
+6. **Blog list:** as detailed in the [Blog page](#blog-page) section, a snapshot of each blog is shown on its own tile which includes information such as the blog post name, brief description, publish date and image. The full blog post can be accessed through clicking the blog post title or image. These tiles are cohesive, and catches the user's attention through giving a snapshot of the content contained within. Collectively, these tiles (i.e. list of blog posts) can be considered a component.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[See 'Blog page' in Screenshots section](#screenshots)
 

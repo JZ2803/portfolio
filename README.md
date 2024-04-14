@@ -19,7 +19,12 @@ This porfolio was created for T1A2 of Coder Academy's Web Development Course.
 * [Acknowledgements](#acknowledgements)
 
 ## Purpose and Target Audience
-The purpose of this portfolio website is to showcase
+The purpose of this portfolio website is to showcase information about myself as a developer and IT professional in a clear, easy-to-navigate and visually appealing way.
+
+I utilised concepts and technologies learned in the first two weeks of the course. HTML, CSS and use of Flexbox 
+
+
+
 ## Technologies Used
 
 - HTML
